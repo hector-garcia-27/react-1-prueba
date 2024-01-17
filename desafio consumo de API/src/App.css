@@ -1,0 +1,153 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#root>main{
+  height: 100%;
+  width: 100%;
+}
+
+#root>.buscar, .buscar2{
+  padding: 20px;
+  margin: 0;
+  background-image: url("https://get.wallhere.com/photo/Dragon-Ball-Dragon-Ball-Z-manga-anime-anime-boys-minimalism-Son-Goku-profile-simple-background-orange-background-2233732.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+#root>main>.logo{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://wallpapercosmos.com/w/middle-retina/7/e/f/143566-3840x2160-desktop-4k-dragon-ball-z-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#root>main>#titulos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#root>main>#titulos>h4{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#root>main>#titulos>h4:hover{
+  background-color: black;
+
+}
+
+#root>main>#titulos>h4>a{
+  color: black;
+}
+
+#root>main>#titulos>h4>a:hover{
+  color: white;
+}
+
+
+
+#root>main>.logo>img {
+  height: 200px;
+}
+
+#root>.seccion1{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+#root>#sec{
+  background-image: url("https://wallpapercosmos.com/w/middle-retina/2/3/e/142813-2560x1350-desktop-hd-dragon-ball-z-wallpaper-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#root>.seccion1>#seccion1>.text{
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.7;
+  color: white;
+}
+
+#root>.seccion1>#seccion1>img {
+  height: 300px;
+}
+
+#root>.seccion1>#seccion1>.text {
+  width: 600px;
+}
+
+#root>.personajes>#card>#card1>.imagen {
+  height: 300px;
+}
+
+
+#root>.personajes>#card>#card1>.imagen>img {
+  height: calc(100% - 30px)
+}
+
+#root>.personajes>#card:hover{
+  transition: all 1s;
+  transform: scale(1.1);
+}
+
+#root>.personajes>#card {
+  width: 500px;
+  height: 100%;
+  background-color: #ececec;
+  border-radius: 25px;
+}
+
+#root>.personajes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("https://get.wallhere.com/photo/Dragon-Ball-Dragon-Ball-Z-manga-anime-anime-boys-minimalism-Son-Goku-profile-simple-background-orange-background-2233732.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+#root>.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root>.footer>#footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(36, 36, 69);
+  color: white;
+  padding: 10px;
+}
+
+#root>.footer>#footer>.redes>ul>li{
+  background-color:  rgb(36, 36, 69);
+}
+
+#root>.footer>.box2{
+  margin: 0;
+  padding: 5px;
+  background-color: rgb(32, 32, 52);
+  color: white;
+}
